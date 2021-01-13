@@ -13,8 +13,8 @@ let package = Package(
         .library(name: "QuickSwiftCheck", targets: ["QuickSwiftCheck"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/mRs-/Nimble", .branch("develop")),
-        .package(url: "https://github.com/mRs-/Quick", .branch("develop")),
+        .package(url: "https://github.com/mRs-/Nimble", .branch("master")),
+        .package(url: "https://github.com/mRs-/Quick", .branch("master")),
         .package(url: "https://github.com/typelift/SwiftCheck", from: "0.12.0"),
     ],
     targets: [
